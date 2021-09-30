@@ -1,4 +1,4 @@
-* TITLE: RL Load SCR circuit
+* TITLE: R Load SCR circuit
 * Analysis: Transient analysis
 
 .include include/thy.sub
