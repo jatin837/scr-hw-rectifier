@@ -1,1 +1,2 @@
 RL load SCR
+.include include/thy.sub

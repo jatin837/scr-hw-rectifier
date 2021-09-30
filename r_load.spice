@@ -1,1 +1,11 @@
-RL Load SCR circuit
+* TITLE: RL Load SCR circuit
+* Analysis: Transient analysis
+
+.include include/thy.sub
+
+vs 0 in SIN(0 250v 50 0 0)
+r1 out 0 1K
+x1 g out 3 2N1595/75C 
+vp 0 g PULSE(0 50v 2m 0 0 1m 20m 0)
+
+.end
